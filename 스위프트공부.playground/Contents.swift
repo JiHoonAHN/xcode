@@ -1,5 +1,5 @@
 import UIKit
-
+import Foundation
 // ---- For Loop
 
 let closedRangee = 0...10//0부터 10까지 표현
@@ -13,3 +13,10 @@ for i in closedRangee {
 }
 print("---> total sum:\(sum)")
  
+
+var sinValue: CGFloat = 0
+for i in closedRangee{
+    sinValue = sin(CGFloat.pi/4 * CGFloat(i))
+    
+}
+
