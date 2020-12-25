@@ -25,3 +25,13 @@ for _ in closedRangee{
     print("---> name: \(name)")
     
 }
+
+for i in closedRangee{
+    if i % 2 == 0{
+        print("---> 짝수:\(i) ")
+    }
+    
+}
+for i in closedRangee where i % 2 == 0 {
+    print("---> 짝수: \(i)")
+}
