@@ -17,6 +17,12 @@ print("---> total sum:\(sum)")
 var sinValue: CGFloat = 0
 for i in closedRangee{
     sinValue = sin(CGFloat.pi/4 * CGFloat(i))
-    
 }
 
+
+let name  = "Jason"
+for i in closedRangee{
+    print("---> name: \(name)")
+    
+    
+}
