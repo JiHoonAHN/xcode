@@ -21,8 +21,7 @@ for i in closedRangee{
 
 
 let name  = "Jason"
-for i in closedRangee{
+for _ in closedRangee{
     print("---> name: \(name)")
-    
     
 }
