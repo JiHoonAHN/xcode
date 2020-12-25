@@ -1,13 +1,15 @@
 import UIKit
 
-//---- While
-//
-//while 조건 {
-//    code ...
-//}
-var i=0
-repeat{
-    print(i)
-    i+=1
-}while i<2
-    //
+// ---- For Loop
+
+let closedRangee = 0...10//0부터 10까지 표현
+let halfClosedRange = 0..<10//0부터 9까지
+
+
+var sum = 0
+for i in closedRangee {
+    print("___\(i)")
+    sum += i
+}
+print("---> total sum:\(sum)")
+ 
