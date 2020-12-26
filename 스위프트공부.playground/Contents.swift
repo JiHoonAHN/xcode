@@ -22,4 +22,4 @@ func printTotalPrice (price: Int, count: Int){
 }
 
 printTotalPrice(price: 1500, count: 5)
-//test2
+//test4
